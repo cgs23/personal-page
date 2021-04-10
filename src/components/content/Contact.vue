@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid pad">
-      <h3 class="pad-down">Wanna chat? Get in touch! 🥳</h3>
+      <h3 class="pad-down">Wanna get in touch for any reason? Hit me up! 🥳</h3>
       <span v-for='item in contactVar' :key='item.platform'>
           <Social :icon='item.icon' :value='item.value' :platform='item.platform'/>
           <div class="divider"></div>

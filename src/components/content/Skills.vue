@@ -1,105 +1,166 @@
 <template>
   <div class="container-fluid pad text-left">
-      <h2 :class="{gray: darkmode, purp: !darkmode}">So.. why even bother?</h2>
-      <h4>Glad you asked! Still learning blablabla here is a rough estimation of my skillset</h4>
+      <h2 :class="{gray: darkmode, purp: !darkmode}">Tech and soft skills</h2>
+      <h4>Still learning and studying, but here is a rough estimation of my skill set.  
+      </h4>
       <div class="row pad">
           <div class="col-md">
+
+            <!-- Tech Skills -->
+
             <div class="card">
             <h4 :class="{'card-header': darkmode, 'card-header-light': !darkmode}">Technical Skills</h4>
             <div :class="{'card-body': darkmode, 'card-body-light': !darkmode}">
             <div class='skill-bars' :class="{'skill-bars-dark': darkmode, 'skill-bars-light': !darkmode}">
+
                     <div class="bar">
                     <div class="info">
-                        <span>HTML</span>
+                        <span>Object-Oriented Programming</span>
                     </div>
-                    <div class="html" :class="{'progress-line': animate}">
+                    <div class="oop" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
                     <div class="bar">
                     <div class="info">
-                        <span>CSS</span>
+                        <span> .NET Framework </span>
                     </div>
-                    <div class="css" :class="{'progress-line': animate}">
+                    <div class="net" :class="{'progress-line': animate}">
+                        <span></span>
+                    </div>
+                    </div>
+
+                    <div class="bar">
+                    <div class="info">
+                        <span> Modern Backend Frameworks (ExpressJS, Flask) </span>
+                    </div>
+                    <div class="back" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
                     
                     <div class="bar">
                     <div class="info">
-                        <span>Python</span>
+                        <span>Modern Frontend Frameworks (VueJS, Angular, React)</span>
                     </div>
-                    <div class="python" :class="{'progress-line': animate}">
+                    <div class="front" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
+
                     <div class="bar">
                     <div class="info">
-                        <span>MySQL</span>
+                        <span>Databases (Relational & NoSQL)</span>
                     </div>
-                    <div class="mysql" :class="{'progress-line': animate}">
+                    <div class="db" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
+
+                    <div class="bar">
+                    <div class="info">
+                        <span>Machine Learning Aspects </span>
+                    </div>
+                    <div class="ml" :class="{'progress-line': animate}">
+                        <span></span>
+                    </div>
+                    </div>
+
+                    <div class="bar">
+                    <div class="info">
+                        <span>Cloud (Azure)</span>
+                    </div>
+                    <div class="cloud" :class="{'progress-line': animate}">
+                        <span></span>
+                    </div>
+                    </div>
+
+                    <div class="bar">
+                    <div class="info">
+                        <span>Robotic Process Automation Frameworks (BluePrism, UI Path)</span>
+                    </div>
+                    <div class="rpa" :class="{'progress-line': animate}">
+                        <span></span>
+                    </div>
+                    </div>
+
                 </div>          
               </div>
             </div>
           </div>
 
           <div class="col-md">
+            
+            <!-- Soft Skills -->
+
             <div class="card">
             <h4 :class="{'card-header': darkmode, 'card-header-light': !darkmode}">Soft skills:</h4>
             <div :class="{'card-body': darkmode, 'card-body-light': !darkmode}">
                 <div class='skill-bars' :class="{'skill-bars-dark': darkmode, 'skill-bars-light': !darkmode}">
+
+
                     <div class="bar">
                     <div class="info">
-                        <span>HTML</span>
+                        <span>Familiar with the Agile Methodology</span>
                     </div>
-                    <div class="html" :class="{'progress-line': animate}">
+                    <div class="agile" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
+
                     <div class="bar">
                     <div class="info">
-                        <span>CSS</span>
+                        <span>Effective management of pressure and deadlines</span>
                     </div>
-                    <div class="css" :class="{'progress-line': animate}">
+                    <div class="deadlines" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
+
                     <div class="bar">
                     <div class="info">
-                        <span>jQuery</span>
+                        <span>Effective in planning and decision making</span>
                     </div>
-                    <div class="jquery" :class="{'progress-line': animate}">
+                    <div class="planning" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
+
                     <div class="bar">
                     <div class="info">
-                        <span>Python</span>
+                        <span>Adaptive to new technologies/methodologies</span>
                     </div>
-                    <div class="python" :class="{'progress-line': animate}">
+                    <div class="adaptive" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
                     
                     <div class="bar">
                     <div class="info">
-                        <span>MySQL</span>
+                        <span>Problem Solving / Algorithmic thinking</span>
                     </div>
-                    <div class="mysql" :class="{'progress-line': animate}">
+                    <div class="algorithmic" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
+
                     <div class="bar">
                     <div class="info">
-                        <span>Azure</span>
+                        <span>Communication & Teamwork</span>
                     </div>
-                    <div class="azure" :class="{'progress-line': animate}">
+                    <div class="teamwork" :class="{'progress-line': animate}">
                         <span></span>
                     </div>
                     </div>
+
+
                 </div>
             </div>
             </div>
@@ -211,25 +272,8 @@ export default {
   background: #6665ee;
   animation: animate 2s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
-.bar .progress-line.html span{
-  width: 90%;
-}
-.bar .progress-line.css span{
-  width: 60%;
-}
-.bar .progress-line.jquery span{
-  width: 85%;
-}
-.bar .progress-line.python span{
-  width: 50%;
-}
-.bar .progress-line.mysql span{
-  width: 75%;
-}
 
-.bar .progress-line.azure span{
-  width: 75%;
-}
+
 .progress-line span::before{
   position: absolute;
   content: "";
@@ -237,10 +281,6 @@ export default {
   right: 0;
   height: 0;
   width: 0;
-  border: 7px solid transparent;
-  border-bottom-width: 0px;
-  border-right-width: 0px;
-  border-top-color: #000;
   opacity: 0;
   animation: showText2 0.5s 1.5s linear forwards;
 }
@@ -263,6 +303,65 @@ export default {
   }
 }
 
+.bar .progress-line.oop span{
+  width: 95%;
+}
+
+.bar .progress-line.net span{
+  width: 75%;
+}
+
+.bar .progress-line.front span{
+  width: 70%;
+}
+
+.bar .progress-line.back span{
+  width: 80%;
+}
+
+.bar .progress-line.db span{
+  width: 65%;
+}
+
+.bar .progress-line.ml span{
+  width: 70%;
+}
+
+.bar .progress-line.cloud span{
+  width: 55%;
+}
+
+.bar .progress-line.rpa span{
+  width: 90%;
+}
+
+/* SOFT */
+
+
+.bar .progress-line.agile span{
+  width: 85%;
+}
+
+
+.bar .progress-line.deadlines span{
+  width: 90%;
+}
+
+.bar .progress-line.planning span{
+  width: 85%;
+}
+
+.bar .progress-line.adaptive span{
+  width: 95%;
+}
+
+.bar .progress-line.algorithmic span{
+  width: 90%;
+}
+
+.bar .progress-line.teamwork span{
+  width: 95%;
+}
 
 
 

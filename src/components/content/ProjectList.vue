@@ -1,7 +1,8 @@
 <template>
   <div class="container-fluid pad text-left">
-      <h2 :class="{gray: darkmode, purp: !darkmode}">Notable projects I've worked on</h2>
-      <h4>Text text</h4>
+      <h2 :class="{gray: darkmode, purp: !darkmode}">Notable projects I have worked on</h2>
+      <h4>Some of the projects shown below have been implemented for academic purposes, others just for fun.
+      </h4>
       <div class="row" align="center">
           <div v-for='projItem in projItems' :key='projItem.id' class="col-sm">
             <ProjectItem :title='projItem.title' :description="projItem.description" :icons="projItem.icons"/>
@@ -32,7 +33,7 @@ export default {
                 {
                     id: 1, 
                     title: 'Government Gazette Automatic Crawler',
-                    description: 'This is the description of the firsdt project. Bla bla? yes. bla bla.',
+                    description: 'Implemented an automatic crawler to retrieve daily the newly released Government Gazette Issues from the National Printing Office’s website, paired with a custom administrator tool for the management of the downloaded documents.',
                     icons: [
                         {
                             id: 1,
@@ -44,7 +45,7 @@ export default {
                 {
                     id: 2, 
                     title: 'This website!',
-                    description: 'This is the description of the firsdt project. Bla bla? yes. bla bla.',
+                    description: "Well.. hello there! Started as a Vue training exercise but turned out pretty nice, don't you think?",
                     icons: [
                         {
                             id: 1,
@@ -66,7 +67,7 @@ export default {
                                 {
                     id: 3, 
                     title: "'How do you feel?'",
-                    description: 'This is the description of the firsdt project. Bla bla? yes. bla bla.',
+                    description: 'A sentiment analysis platform, with custom machine learning models. It can also communicate with a variety of social media APIs (Twitter, Reddit, Youtube) to retrieve and analyze texts based on a query, graphically presenting the results to the user.',
                     icons: [
                         {
                             id: 1,
@@ -93,7 +94,7 @@ export default {
                                 {
                     id: 4, 
                     title: 'Game of Life Implementation',
-                    description: 'This is the description of the firsdt project. Bla bla? yes. bla bla.',
+                    description: 'CUDA & MPI Implementation of the famous 1970 cellular automaton, as well as animation of the results via a custom gnuplot script.',
                     icons: [
                         {
                             id: 1,
@@ -115,7 +116,7 @@ export default {
                                 {
                     id: 5, 
                     title: "'Shrinklink'",
-                    description: 'This is the description of the firsdt project. Bla bla? yes. bla bla.',
+                    description: 'A URL shrinker application, where the user enters a URL and a smaller version of it appears, for easier copy/pasting of gargantuan links. (Looking at you, Amazon)',
                     icons: [
                         {
                             id: 1,
@@ -137,8 +138,8 @@ export default {
                 },
                 {
                     id: 6, 
-                    title: "HCI 2021 Publication",
-                    description: 'This is the description of the firsdt project. Bla bla? yes. bla bla.',
+                    title: "HCII 2021 Publication",
+                    description: "'A Sentiment Analysis Web Platform for Multiple Social Media Types and Language-Specific Customizations', a paper that discusses the 'How do you feel' application, as well as some other ideas, for the HCII 2021 Conference." ,
                     icons: [
                         {
                             id: 1,
@@ -150,7 +151,7 @@ export default {
                                 {
                     id: 7, 
                     title: "'Get out'",
-                    description: 'This is the description of the firsdt project. Bla bla? yes. bla bla.',
+                    description: 'Developed as a team project for a university course, it is an escape room inspired 3D game, where the played has to solve riddles and get out (hehe) of a haunted house within the time limit.',
                     icons: [
                         {
                             id: 1,

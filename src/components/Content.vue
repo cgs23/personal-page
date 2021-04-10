@@ -34,7 +34,8 @@ export default {
         animateSkills: false,
         animateProjects: false,
         animateInterests: false,
-        animateContact: false
+        animateContact: false,
+        show: false
       })
     },
     methods:{
@@ -51,6 +52,9 @@ export default {
       isContactViewable(isVisible) {
           this.animateContact = isVisible;
       },
+    },
+    created(){
+
     }
 
 }
