@@ -97,7 +97,7 @@
             <!-- Soft Skills -->
 
             <div class="card">
-            <h4 :class="{'card-header': darkmode, 'card-header-light': !darkmode}">Soft skills:</h4>
+            <h4 :class="{'card-header': darkmode, 'card-header-light': !darkmode}">Soft skills</h4>
             <div :class="{'card-body': darkmode, 'card-body-light': !darkmode}">
                 <div class='skill-bars' :class="{'skill-bars-dark': darkmode, 'skill-bars-light': !darkmode}">
 

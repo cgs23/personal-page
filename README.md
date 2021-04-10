@@ -1,24 +1,10 @@
-# portfolio
+## Personal Website 
 
-## Project setup
-```
-npm install
-```
+This repo contains the files for my small, personal webpage. 
+Developed using [VueJS](https://vuejs.org/), deployed with the help of [Netlify](https://www.netlify.com/).
+To run locally:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+ 1. Install the packages needed using the `npm install` command.
+ 2. Run the application with`npm run serve`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can visit the website [here](https://sgiannakis.netlify.app/).
