@@ -6,6 +6,7 @@
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      {{age}}
     </h4>
   </div>
 </template>
@@ -19,11 +20,45 @@ export default {
     EventBus.$on('dark-mode', (val) => {
       this.darkmode=val;
       });
+      setInterval(() => {
+        this.calculateAge();
+      }, 1000);
   },
   data(){
     return({
       darkmode: true,
+      age: ''
     })
+  },
+  methods:{
+    calculateAge(){
+      let birthDate = new Date(1992, 2, 23, 14, 0, 0, 0, 0);
+      let now = new Date();
+      let dif = now - birthDate;
+      let obj = this.convertDate(dif)
+      return this.age = obj.y + ' years (' + obj.d + ' days and ' + obj.h+':'+obj.m +':'+obj.s+ ')';
+      
+    },
+    convertDate(ms) {
+      var years, days, hours, minutes, seconds, total_hours, total_minutes, total_seconds;
+      
+      total_seconds = parseInt(Math.floor(ms / 1000));
+      total_minutes = parseInt(Math.floor(total_seconds / 60));
+      total_hours = parseInt(Math.floor(total_minutes / 60));
+      years = parseInt(Math.floor((total_hours / 24) / 365));
+      days = (parseInt(Math.floor(total_hours / 24)) % 365) - (parseInt(years/4));
+
+      seconds = parseInt(total_seconds % 60);
+      seconds = seconds < 10  ? '0' + seconds.toString(): seconds;
+
+      minutes = parseInt(total_minutes % 60);
+      minutes = minutes < 10 ? '0' + minutes.toString(): minutes;
+
+      hours = parseInt(total_hours % 24);
+      hours = hours < 10 ? '0' + hours.toString(): hours;
+      return {y: years, d: days, h: hours, m: minutes, s: seconds };
+      
+    }
   }
 }
 </script>

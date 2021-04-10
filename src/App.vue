@@ -21,7 +21,7 @@ export default {
     Footer
   },
   created(){
-    document.title = "S. Giannakis"
+    document.title = "S. Giannakis | Full Stack Developer"
     EventBus.$on('dark-mode', (val) => {
       this.darkmode=val;
       });

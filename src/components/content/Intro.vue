@@ -2,8 +2,7 @@
   <div class="container-fluid pad text-left">
       <h2 :class="{gray: darkmode, purp: !darkmode}">Hello there! 👋🏼</h2>
       <h3>I'm Stavros.</h3>
-      <h4>Some text some text some text some text some text some text some text <br>
-      some text some text some text some text.</h4>
+      <h4>Welcome to my personal page!</h4>
   </div>
 </template>
 
