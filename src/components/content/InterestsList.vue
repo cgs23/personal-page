@@ -9,7 +9,7 @@
 	<li>Videogames, with a little extra love for the Legend of Zelda series. (Thank you Mr. Miyamoto)</li>
 	<li>Cocktails & Mixology (worked as a bartender for almost 7 years!)</li>
   <li>Food. Especially burgers. And Mexican.</li>
-  <li>Music. Hiphop-head for almost 20 years, part of the legendary* Sigma Pi band as a DJ & turntablist. <span class="terms">* terms and conditions apply</span> </li>
+  <li>Music. Hiphop-head for almost 20 years, member of the legendary* Sigma Pi band as a DJ & turntablist. <span class="terms">* terms and conditions apply</span> </li>
   <li>Traveling and exploring new places around the globe </li>
   <li>And finally.. Strawberry cheesecake flavored ice cream.</li>
 </ol>
