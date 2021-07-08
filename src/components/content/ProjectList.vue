@@ -139,7 +139,7 @@ export default {
                 {
                     id: 6, 
                     title: "HCII 2021 Publication",
-                    description: "'A Sentiment Analysis Web Platform for Multiple Social Media Types and Language-Specific Customizations', a paper that discusses the 'How do you feel' application, as well as some other ideas, for the HCII 2021 Conference." ,
+                    description: "For more information: https://doi.org/10.1007/978-3-030-78462-1_2" ,
                     icons: [
                         {
                             id: 1,
