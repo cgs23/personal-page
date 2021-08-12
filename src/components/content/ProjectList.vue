@@ -139,7 +139,7 @@ export default {
                 {
                     id: 6, 
                     title: "HCII 2021 Publication",
-                    description: "'A Sentiment Analysis Web Platform for Multiple Social Media Types and Language-Specific Customizations' .For more information visit: https://doi.org/10.1007/978-3-030-78462-1_2" ,
+                    description: "'A Sentiment Analysis Web Platform for Multiple Social Media Types and Language-Specific Customizations' .For more information visit: https://link.springer.com/chapter/10.1007/978-3-030-78462-1_24" ,
                     icons: [
                         {
                             id: 1,
