@@ -31,7 +31,7 @@ export default {
             darkmode: true,
             projItems: [
                 {
-                    id: 1, 
+                    id: 1,
                     title: 'Government Gazette Automatic Crawler',
                     description: 'Implemented an automatic crawler to retrieve daily the newly released Government Gazette Issues from the National Printing Office’s website, paired with a custom administrator tool for the management of the downloaded documents.',
                     icons: [
@@ -43,7 +43,7 @@ export default {
                     ]
                 },
                 {
-                    id: 2, 
+                    id: 2,
                     title: 'This website!',
                     description: "Well.. hello there! Started as a Vue training exercise but turned out pretty nice, don't you think?",
                     icons: [
@@ -65,7 +65,7 @@ export default {
                     ]
                 },
                                 {
-                    id: 3, 
+                    id: 3,
                     title: "'How do you feel?'",
                     description: 'A sentiment analysis platform, with custom machine learning models. It can also communicate with a variety of social media APIs (Twitter, Reddit, Youtube) to retrieve and analyze texts based on a query, graphically presenting the results to the user.',
                     icons: [
@@ -83,7 +83,7 @@ export default {
                             id: 3,
                             title: 'Machine Learning',
                             name: 'robot'
-                        },                       
+                        },
                         {
                             id: 4,
                             title: 'Python',
@@ -92,7 +92,7 @@ export default {
                     ]
                 },
                                 {
-                    id: 4, 
+                    id: 4,
                     title: 'Game of Life Implementation',
                     description: 'CUDA & MPI Implementation of the famous 1970 cellular automaton, as well as animation of the results via a custom gnuplot script.',
                     icons: [
@@ -114,7 +114,7 @@ export default {
                     ]
                 },
                                 {
-                    id: 5, 
+                    id: 5,
                     title: "'Shrinklink'",
                     description: 'A URL shrinker application, where the user enters a URL and a smaller version of it appears, for easier copy/pasting of gargantuan links. (Looking at you, Amazon)',
                     icons: [
@@ -137,7 +137,7 @@ export default {
                     ]
                 },
                 {
-                    id: 6, 
+                    id: 6,
                     title: "HCII 2021 Publication",
                     description: "'A Sentiment Analysis Web Platform for Multiple Social Media Types and Language-Specific Customizations' .For more information visit: https://link.springer.com/chapter/10.1007/978-3-030-78462-1_24" ,
                     icons: [
@@ -149,7 +149,7 @@ export default {
                     ]
                 },
                                 {
-                    id: 7, 
+                    id: 7,
                     title: "'Get out'",
                     description: 'Developed as a team project for a university course, it is an escape room inspired 3D game, where the played has to solve riddles and get out (hehe) of a haunted house within the time limit.',
                     icons: [
@@ -163,6 +163,28 @@ export default {
                             title: 'Game Development',
                             name: 'gamepad'
                         }
+                    ]
+                },
+                {
+                    id: 7,
+                    title: "Wordle Clone",
+                    description: 'Jumped on the Wordle craze train and developed a copy version of the famous word quiz.',
+                    icons: [
+                        {
+                            id: 1,
+                            title: 'Javascript',
+                            name: 'brands/js-square'
+                        },
+                        {
+                            id: 2,
+                            title: 'React',
+                            name: 'brands/react'
+                        },
+                                                {
+                            id: 2,
+                            title: 'Redux',
+                            name: 'brands/redux'
+                        },
                     ]
                 },
             ]

@@ -1,6 +1,6 @@
 <template>
   <div :class="{'foot-light': !darkmode, 'foot-dark': darkmode}" class='foot'>
-      2021 · Made by Stavros with <span id='heart'>❤</span>
+      2022 · Made by Stavros with <span id='heart'>❤</span>
   </div>
 </template>
 
