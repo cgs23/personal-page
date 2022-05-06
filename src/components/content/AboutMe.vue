@@ -2,11 +2,11 @@
   <div class="container-fluid pad text-right">
     <h2 :class="{gray: darkmode, purp: !darkmode}" >A little bit about me</h2>
     <h4>My name is Stavros Giannakis, I am {{age}} old, currently living in Berlin, Germany. <br> 
-        I have a Bachelor & Master's degree in Computer Science, having graduated from the National and Kapodistrian University of Athens, Department of Informatics and Telecommunications. <br>
-        I am a software engineer with 2+ years of work experience in a variety of development frameworks. Furthermore, I possess a sound understanding of Machine Learning aspects,
+        I have a Master's degree in Computer Science, having graduated from the National and Kapodistrian University of Athens, Department of Informatics and Telecommunications. <br>
+        I am a Software Engineer with 3+ years of work experience, with a variety of development frameworks. Furthermore, I possess a sound understanding of Machine Learning aspects,
         participating in a research team that engages with problems related with textual data. <br>
         Always enthusiastic and eager to learn new technologies and expand the existing arsenal of development tools. <br>
-        Currently, I am working as a full stack developer (.NET / React) for TeamViewer in Berlin.
+        Currently, I am working as a full stack developer (.NET / React) for TeamViewer.
     </h4>
   </div>
 </template>
