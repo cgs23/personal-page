@@ -42,28 +42,28 @@ export default {
                         }
                     ]
                 },
-                {
-                    id: 2,
-                    title: 'This website!',
-                    description: "Well.. hello there! Started as a Vue training exercise but turned out pretty nice, don't you think?",
-                    icons: [
-                        {
-                            id: 1,
-                            title: 'Vue',
-                            name: 'brands/vuejs'
-                        },
-                        {
-                            id: 2,
-                            title: 'Javascript',
-                            name: 'brands/js-square'
-                        },
-                        {
-                            id: 3,
-                            title: 'Custom CSS',
-                            name: 'brands/css3-alt'
-                        },
-                    ]
-                },
+                // {
+                //     id: 2,
+                //     title: 'This website!',
+                //     description: "Well.. hello there! Started as a Vue training exercise but turned out pretty nice, don't you think?",
+                //     icons: [
+                //         {
+                //             id: 1,
+                //             title: 'Vue',
+                //             name: 'brands/vuejs'
+                //         },
+                //         {
+                //             id: 2,
+                //             title: 'Javascript',
+                //             name: 'brands/js-square'
+                //         },
+                //         {
+                //             id: 3,
+                //             title: 'Custom CSS',
+                //             name: 'brands/css3-alt'
+                //         },
+                //     ]
+                // },
                                 {
                     id: 3,
                     title: "'How do you feel?'",
@@ -116,7 +116,7 @@ export default {
                                 {
                     id: 5,
                     title: "'Shrinklink'",
-                    description: 'A URL shrinker application, where the user enters a URL and a smaller version of it appears, for easier copy/pasting of gargantuan links. (Looking at you, Amazon)',
+                    description: 'A URL shrinker application, where the user enters a URL and a smaller version of it appears, for easier copy/pasting of gargantuan links.',
                     icons: [
                         {
                             id: 1,
@@ -181,9 +181,31 @@ export default {
                             name: 'brands/react'
                         },
                                                 {
-                            id: 2,
+                            id: 3,
                             title: 'Redux',
                             name: 'brands/redux'
+                        },
+                    ]
+                },
+                                {
+                    id: 8,
+                    title: "LingLand",
+                    description: 'Developed for the DeMiNeS, it is a photo library containing a variety of graffiti, street slogans and more. Can be visited at: https://lingland.del.auth.com',
+                    icons: [
+                        {
+                            id: 1,
+                            title: 'Linux hosting',
+                            name: 'brands/linux'
+                        },
+                        {
+                            id: 2,
+                            title: 'NextJS/React',
+                            name: 'brands/react'
+                        },
+                                                {
+                            id: 3,
+                            title: 'Firebase',
+                            name: 'database'
                         },
                     ]
                 },
