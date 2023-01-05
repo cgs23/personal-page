@@ -5,13 +5,12 @@
       there are other things that get me pumped and help me get through life. <br> Here are some of them!
     </h4>
     <ol>
-	<li>Sports, mostly watching to be honest 😅  (Go Lakers, Go Tottenham!)</li>
-	<li>Videogames, with a little extra love for the Legend of Zelda series. (Thank you Mr. Miyamoto)</li>
+	<li>Sports (#COYS)</li>
+	<li>Videogames, with a little extra love for the Legend of Zelda series.</li>
 	<li>Cocktails & Mixology (worked as a bartender for almost 7 years!)</li>
-  <li>Food. Especially burgers. And Mexican.</li>
-  <li>Music. Hiphop-head for almost 20 years, member of the legendary* Sigma Pi band as a DJ & turntablist. <span class="terms">* terms and conditions apply</span> </li>
+  <li>Cooking and trying new cuisines.</li>
+  <li>Music - Hiphop-head for almost 20 years, member of the legendary* Sigma Pi band as a DJ & turntablist. <span class="terms">* terms and conditions apply</span> </li>
   <li>Traveling and exploring new places around the globe </li>
-  <li>And finally.. Strawberry cheesecake flavored ice cream.</li>
 </ol>
   </div>
 </template>
@@ -22,7 +21,7 @@ import {EventBus} from '../../eventBus.js'
 export default {
     name: 'InterestsList',
     components:{
-        
+
     },
   created(){
     EventBus.$on('dark-mode', (val) => {
