@@ -190,7 +190,7 @@ export default {
                                 {
                     id: 8,
                     title: "LingLand",
-                    description: 'Developed for the DeMiNeS, it is a photo library containing a variety of graffiti, street slogans and more. Can be visited at: https://lingland.del.auth.com',
+                    description: 'Developed for the DeMiNeS, it is a photo library containing a variety of graffiti, street slogans and more. Can be visited at: https://demines-lingland.del.auth.com',
                     icons: [
                         {
                             id: 1,
