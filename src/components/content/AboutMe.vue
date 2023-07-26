@@ -4,7 +4,7 @@
     <h4>My name is Stavros Giannakis, I am {{ age }} old, currently living in Berlin, Germany. <br>
       I have a Master's degree in Computer Science, having graduated from the National and Kapodistrian University of
       Athens, Department of Informatics and Telecommunications. <br>
-      I am a Software Engineer with 3+ years of work experience, with a variety of development frameworks. Furthermore,
+      I am a Software Engineer with 4+ years of work experience, with a variety of development frameworks. Furthermore,
       I possess a sound understanding of Machine Learning aspects,
       participating in a research team that engages with problems related with textual data. <br>
       Always enthusiastic and eager to learn new technologies and expand the existing arsenal of development tools. <br>

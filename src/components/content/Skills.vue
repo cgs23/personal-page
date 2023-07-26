@@ -78,15 +78,6 @@
                 </div>
               </div>
 
-              <div class="bar">
-                <div class="info">
-                  <span>Robotic Process Automation Frameworks (BluePrism, UI Path)</span>
-                </div>
-                <div class="rpa" :class="{ 'progress-line': animate }">
-                  <span></span>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
@@ -318,7 +309,7 @@ export default {
 }
 
 .bar .progress-line.net span {
-  width: 80%;
+  width: 85%;
 }
 
 .bar .progress-line.front span {
@@ -339,10 +330,6 @@ export default {
 
 .bar .progress-line.cloud span {
   width: 75%;
-}
-
-.bar .progress-line.rpa span {
-  width: 90%;
 }
 
 /* SOFT */

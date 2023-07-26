@@ -44,7 +44,7 @@ export default {
         },
         {
             "platform": "Twitter",
-            "value": "https://www.twitter.com/cgs23",
+            "value": "https://www.twitter.com/sgiannakis23",
             "icon": "brands/twitter"
 
         },
