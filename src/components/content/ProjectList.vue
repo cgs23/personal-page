@@ -1,33 +1,33 @@
 <template>
-  <div class="container-fluid pad text-left">
-      <h2 :class="{gray: darkmode, purp: !darkmode}">Notable projects I have worked on</h2>
-      <h4>Some of the projects shown below have been implemented for academic purposes, others just for fun.
-      </h4>
-      <div class="row" align="center">
-          <div v-for='projItem in projItems' :key='projItem.id' class="col-sm">
-            <ProjectItem :title='projItem.title' :description="projItem.description" :icons="projItem.icons"/>
-          </div>
-      </div>
-  </div>
+    <div class="container-fluid pad text-left">
+        <h2 :class="{ gray: darkmode, purp: !darkmode }">Notable projects I have worked on</h2>
+        <h4>Some of the projects shown below have been implemented for academic purposes, others just for fun.
+        </h4>
+        <div class="row" align="center">
+            <div v-for='projItem in projItems' :key='projItem.id' class="col-sm">
+                <ProjectItem :title='projItem.title' :description="projItem.description" :icons="projItem.icons" />
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
 
 import ProjectItem from './ProjectItem.vue'
-import {EventBus} from '../../eventBus.js'
+import { EventBus } from '../../eventBus.js'
 
 export default {
     name: 'ProjectList',
-  created(){
-    EventBus.$on('dark-mode', (val) => {
-      this.darkmode=val;
-      });
-  },
+    created() {
+        EventBus.$on('dark-mode', (val) => {
+            this.darkmode = val;
+        });
+    },
     components: {
         ProjectItem
     },
-    data(){
-        return{
+    data() {
+        return {
             darkmode: true,
             projItems: [
                 {
@@ -64,7 +64,7 @@ export default {
                 //         },
                 //     ]
                 // },
-                                {
+                {
                     id: 3,
                     title: "'How do you feel?'",
                     description: 'A sentiment analysis platform, with custom machine learning models. It can also communicate with a variety of social media APIs (Twitter, Reddit, Youtube) to retrieve and analyze texts based on a query, graphically presenting the results to the user.',
@@ -91,7 +91,7 @@ export default {
                         }
                     ]
                 },
-                                {
+                {
                     id: 4,
                     title: 'Game of Life Implementation',
                     description: 'CUDA & MPI Implementation of the famous 1970 cellular automaton, as well as animation of the results via a custom gnuplot script.',
@@ -113,7 +113,7 @@ export default {
                         }
                     ]
                 },
-                                {
+                {
                     id: 5,
                     title: "'Shrinklink'",
                     description: 'A URL shrinker application, where the user enters a URL and a smaller version of it appears, for easier copy/pasting of gargantuan links.',
@@ -139,7 +139,7 @@ export default {
                 {
                     id: 6,
                     title: "HCII 2021 Publication",
-                    description: "'A Sentiment Analysis Web Platform for Multiple Social Media Types and Language-Specific Customizations' .For more information visit: https://link.springer.com/chapter/10.1007/978-3-030-78462-1_24" ,
+                    description: "'A Sentiment Analysis Web Platform for Multiple Social Media Types and Language-Specific Customizations' .For more information visit: https://link.springer.com/chapter/10.1007/978-3-030-78462-1_24",
                     icons: [
                         {
                             id: 1,
@@ -148,7 +148,7 @@ export default {
                         }
                     ]
                 },
-                                {
+                {
                     id: 7,
                     title: "'Get out'",
                     description: 'Developed as a team project for a university course, it is an escape room inspired 3D game, where the played has to solve riddles and get out (hehe) of a haunted house within the time limit.',
@@ -168,7 +168,7 @@ export default {
                 {
                     id: 7,
                     title: "Wordle Clone",
-                    description: 'Jumped on the Wordle craze train and developed a copy version of the famous word quiz.',
+                    description: 'Jumped on the Wordle craze train and developed a copy version of the famous word quiz. Play at https://totally-original-idea.netlify.app',
                     icons: [
                         {
                             id: 1,
@@ -180,14 +180,14 @@ export default {
                             title: 'React',
                             name: 'brands/react'
                         },
-                                                {
+                        {
                             id: 3,
                             title: 'Redux',
                             name: 'brands/redux'
                         },
                     ]
                 },
-                                {
+                {
                     id: 8,
                     title: "LingLand",
                     description: 'Developed for the DeMiNeS, it is a photo library containing a variety of graffiti, street slogans and more. Can be visited at: https://demines-lingland.del.auth.com',
@@ -202,7 +202,7 @@ export default {
                             title: 'NextJS/React',
                             name: 'brands/react'
                         },
-                                                {
+                        {
                             id: 3,
                             title: 'Firebase',
                             name: 'database'
@@ -217,7 +217,7 @@ export default {
 
 <style>
 .row {
-    display:flex;
+    display: flex;
     align-content: center;
     justify-content: center;
 }
