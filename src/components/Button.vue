@@ -4,15 +4,12 @@
 
 <script>
 export default {
-    name:'Button',
-    props:[
-        'style'
-    ]
+  name: 'Button',
+  props: [
+    'style'
+  ]
 
 }
 </script>
 
-<style>
-
-
-</style>
+<style></style>
